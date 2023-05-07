@@ -32,7 +32,7 @@ function loadImages() {
 
 window.onload = function() {
     updateData();
-    setInterval(updateData, 10000);  // Update data every minute
-    // loadImages();
+    setInterval(updateData, 10000);  // Update data 10 seconds
+    loadImages();
 }
 
